@@ -1,0 +1,323 @@
+Dependencies for Project '20190107', Target '20190107': (DO NOT MODIFY !)
+F (..\lib\Library\Device\Nuvoton\Nano1X2Series\Source\system_Nano1X2Series.c)(0x5B9F687E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\hardware -I ..\lib\Library\CMSIS\Include -I ..\lib\Library\CMSIS\Driver\Include -I ..\lib\Library\StdDriver\inc-I.\RTE\_20190107-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\system_nano1x2series.o --omf_browse .\objects\system_nano1x2series.crf --depend .\objects\system_nano1x2series.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\Nano1X2Series.h)(0x5AA8EB94)
+I (..\lib\Library\CMSIS\Include\core_cm0.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\core_cmInstr.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\cmsis_armcc.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\core_cmFunc.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\system_Nano1X2Series.h)(0x58EF3608)
+I (..\lib\Library\StdDriver\inc\sys.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\clk.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\acmp.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\adc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\fmc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\gpio.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\i2c.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\crc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pdma.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pwm.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\rtc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\sc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\scuart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\spi.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\timer.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\uart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wdt.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wwdt.h)(0x5B9F687E)
+F (..\lib\Library\Device\Nuvoton\Nano1X2Series\Source\ARM\startup_Nano1X2Series.s)(0x5C00B290)(--cpu Cortex-M0 -g --apcs=interwork -I.\RTE\_20190107-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include-Id:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524"--list .\listings\startup_nano1x2series.lst --xref -o .\objects\startup_nano1x2series.o --depend .\objects\startup_nano1x2series.d)
+F (.\lib\adc.c)(0x5B9F687E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\hardware -I ..\lib\Library\CMSIS\Include -I ..\lib\Library\CMSIS\Driver\Include -I ..\lib\Library\StdDriver\inc-I.\RTE\_20190107-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\Nano1X2Series.h)(0x5AA8EB94)
+I (..\lib\Library\CMSIS\Include\core_cm0.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\lib\Library\CMSIS\Include\core_cmInstr.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\cmsis_armcc.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\core_cmFunc.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\system_Nano1X2Series.h)(0x58EF3608)
+I (..\lib\Library\StdDriver\inc\sys.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\clk.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\acmp.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\adc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\fmc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\gpio.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\i2c.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\crc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pdma.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pwm.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\rtc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\sc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\scuart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\spi.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\timer.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\uart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wdt.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wwdt.h)(0x5B9F687E)
+F (.\lib\clk.c)(0x5C0791D0)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\hardware -I ..\lib\Library\CMSIS\Include -I ..\lib\Library\CMSIS\Driver\Include -I ..\lib\Library\StdDriver\inc-I.\RTE\_20190107-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\clk.o --omf_browse .\objects\clk.crf --depend .\objects\clk.d)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\Nano1X2Series.h)(0x5AA8EB94)
+I (..\lib\Library\CMSIS\Include\core_cm0.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\lib\Library\CMSIS\Include\core_cmInstr.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\cmsis_armcc.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\core_cmFunc.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\system_Nano1X2Series.h)(0x58EF3608)
+I (..\lib\Library\StdDriver\inc\sys.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\clk.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\acmp.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\adc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\fmc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\gpio.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\i2c.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\crc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pdma.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pwm.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\rtc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\sc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\scuart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\spi.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\timer.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\uart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wdt.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wwdt.h)(0x5B9F687E)
+F (.\lib\gpio.c)(0x5B9F687E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\hardware -I ..\lib\Library\CMSIS\Include -I ..\lib\Library\CMSIS\Driver\Include -I ..\lib\Library\StdDriver\inc-I.\RTE\_20190107-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\Nano1X2Series.h)(0x5AA8EB94)
+I (..\lib\Library\CMSIS\Include\core_cm0.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\lib\Library\CMSIS\Include\core_cmInstr.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\cmsis_armcc.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\core_cmFunc.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\system_Nano1X2Series.h)(0x58EF3608)
+I (..\lib\Library\StdDriver\inc\sys.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\clk.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\acmp.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\adc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\fmc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\gpio.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\i2c.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\crc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pdma.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pwm.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\rtc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\sc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\scuart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\spi.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\timer.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\uart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wdt.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wwdt.h)(0x5B9F687E)
+F (.\lib\i2c.c)(0x5B9F687E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\hardware -I ..\lib\Library\CMSIS\Include -I ..\lib\Library\CMSIS\Driver\Include -I ..\lib\Library\StdDriver\inc-I.\RTE\_20190107-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\Nano1X2Series.h)(0x5AA8EB94)
+I (..\lib\Library\CMSIS\Include\core_cm0.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\lib\Library\CMSIS\Include\core_cmInstr.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\cmsis_armcc.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\core_cmFunc.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\system_Nano1X2Series.h)(0x58EF3608)
+I (..\lib\Library\StdDriver\inc\sys.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\clk.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\acmp.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\adc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\fmc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\gpio.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\i2c.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\crc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pdma.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pwm.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\rtc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\sc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\scuart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\spi.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\timer.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\uart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wdt.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wwdt.h)(0x5B9F687E)
+F (.\lib\retarget.c)(0x5B9F687E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\hardware -I ..\lib\Library\CMSIS\Include -I ..\lib\Library\CMSIS\Driver\Include -I ..\lib\Library\StdDriver\inc-I.\RTE\_20190107-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\Nano1X2Series.h)(0x5AA8EB94)
+I (..\lib\Library\CMSIS\Include\core_cm0.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\lib\Library\CMSIS\Include\core_cmInstr.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\cmsis_armcc.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\core_cmFunc.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\system_Nano1X2Series.h)(0x58EF3608)
+I (..\lib\Library\StdDriver\inc\sys.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\clk.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\acmp.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\adc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\fmc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\gpio.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\i2c.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\crc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pdma.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pwm.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\rtc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\sc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\scuart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\spi.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\timer.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\uart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wdt.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wwdt.h)(0x5B9F687E)
+F (.\lib\sys.c)(0x5B9F687E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\hardware -I ..\lib\Library\CMSIS\Include -I ..\lib\Library\CMSIS\Driver\Include -I ..\lib\Library\StdDriver\inc-I.\RTE\_20190107-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\sys.o --omf_browse .\objects\sys.crf --depend .\objects\sys.d)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\Nano1X2Series.h)(0x5AA8EB94)
+I (..\lib\Library\CMSIS\Include\core_cm0.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\lib\Library\CMSIS\Include\core_cmInstr.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\cmsis_armcc.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\core_cmFunc.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\system_Nano1X2Series.h)(0x58EF3608)
+I (..\lib\Library\StdDriver\inc\sys.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\clk.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\acmp.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\adc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\fmc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\gpio.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\i2c.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\crc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pdma.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pwm.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\rtc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\sc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\scuart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\spi.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\timer.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\uart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wdt.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wwdt.h)(0x5B9F687E)
+F (.\lib\timer.c)(0x5B9F687E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\hardware -I ..\lib\Library\CMSIS\Include -I ..\lib\Library\CMSIS\Driver\Include -I ..\lib\Library\StdDriver\inc-I.\RTE\_20190107-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\Nano1X2Series.h)(0x5AA8EB94)
+I (..\lib\Library\CMSIS\Include\core_cm0.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\lib\Library\CMSIS\Include\core_cmInstr.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\cmsis_armcc.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\core_cmFunc.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\system_Nano1X2Series.h)(0x58EF3608)
+I (..\lib\Library\StdDriver\inc\sys.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\clk.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\acmp.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\adc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\fmc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\gpio.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\i2c.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\crc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pdma.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pwm.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\rtc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\sc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\scuart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\spi.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\timer.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\uart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wdt.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wwdt.h)(0x5B9F687E)
+F (.\lib\uart.c)(0x5B9F687E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\hardware -I ..\lib\Library\CMSIS\Include -I ..\lib\Library\CMSIS\Driver\Include -I ..\lib\Library\StdDriver\inc-I.\RTE\_20190107-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\Nano1X2Series.h)(0x5AA8EB94)
+I (..\lib\Library\CMSIS\Include\core_cm0.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\lib\Library\CMSIS\Include\core_cmInstr.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\cmsis_armcc.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\core_cmFunc.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\system_Nano1X2Series.h)(0x58EF3608)
+I (..\lib\Library\StdDriver\inc\sys.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\clk.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\acmp.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\adc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\fmc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\gpio.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\i2c.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\crc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pdma.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pwm.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\rtc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\sc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\scuart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\spi.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\timer.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\uart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wdt.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wwdt.h)(0x5B9F687E)
+F (.\lib\rtc.c)(0x5B9F687E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\hardware -I ..\lib\Library\CMSIS\Include -I ..\lib\Library\CMSIS\Driver\Include -I ..\lib\Library\StdDriver\inc-I.\RTE\_20190107-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\rtc.o --omf_browse .\objects\rtc.crf --depend .\objects\rtc.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\Nano1X2Series.h)(0x5AA8EB94)
+I (..\lib\Library\CMSIS\Include\core_cm0.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\lib\Library\CMSIS\Include\core_cmInstr.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\cmsis_armcc.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\core_cmFunc.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\system_Nano1X2Series.h)(0x58EF3608)
+I (..\lib\Library\StdDriver\inc\sys.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\clk.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\acmp.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\adc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\fmc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\gpio.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\i2c.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\crc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pdma.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pwm.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\rtc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\sc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\scuart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\spi.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\timer.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\uart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wdt.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wwdt.h)(0x5B9F687E)
+F (.\user\main.c)(0x5CAEAE0D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\hardware -I ..\lib\Library\CMSIS\Include -I ..\lib\Library\CMSIS\Driver\Include -I ..\lib\Library\StdDriver\inc-I.\RTE\_20190107-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\Nano1X2Series.h)(0x5AA8EB94)
+I (..\lib\Library\CMSIS\Include\core_cm0.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\lib\Library\CMSIS\Include\core_cmInstr.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\cmsis_armcc.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\core_cmFunc.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\system_Nano1X2Series.h)(0x58EF3608)
+I (..\lib\Library\StdDriver\inc\sys.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\clk.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\acmp.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\adc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\fmc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\gpio.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\i2c.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\crc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pdma.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pwm.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\rtc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\sc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\scuart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\spi.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\timer.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\uart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wdt.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wwdt.h)(0x5B9F687E)
+I (.\hardware\NuEdu-Basic01_EEPROM.h)(0x57A3FDF8)
+F (.\hardware\NuEdu-Basic01_EEPROM.c)(0x57D8DF90)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I .\hardware -I ..\lib\Library\CMSIS\Include -I ..\lib\Library\CMSIS\Driver\Include -I ..\lib\Library\StdDriver\inc-I.\RTE\_20190107-Id:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524"-o .\objects\nuedu-basic01_eeprom.o --omf_browse .\objects\nuedu-basic01_eeprom.crf --depend .\objects\nuedu-basic01_eeprom.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\Nano1X2Series.h)(0x5AA8EB94)
+I (..\lib\Library\CMSIS\Include\core_cm0.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\lib\Library\CMSIS\Include\core_cmInstr.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\cmsis_armcc.h)(0x5B9F687E)
+I (..\lib\Library\CMSIS\Include\core_cmFunc.h)(0x5B9F687E)
+I (d:\Keil_v5\ARM\PACK\Nuvoton\NuMicro_DFP\1.3.3\Device\NANO112\Include\system_Nano1X2Series.h)(0x58EF3608)
+I (..\lib\Library\StdDriver\inc\sys.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\clk.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\acmp.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\adc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\fmc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\gpio.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\i2c.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\crc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pdma.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\pwm.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\rtc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\sc.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\scuart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\spi.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\timer.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\uart.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wdt.h)(0x5B9F687E)
+I (..\lib\Library\StdDriver\inc\wwdt.h)(0x5B9F687E)
+I (hardware\NuEdu-Basic01_EEPROM.h)(0x57A3FDF8)

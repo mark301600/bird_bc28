@@ -1,0 +1,18 @@
+--cpu Cortex-M0
+".\objects\system_nano1x2series.o"
+".\objects\startup_nano1x2series.o"
+".\objects\adc.o"
+".\objects\clk.o"
+".\objects\gpio.o"
+".\objects\i2c.o"
+".\objects\retarget.o"
+".\objects\sys.o"
+".\objects\timer.o"
+".\objects\uart.o"
+".\objects\rtc.o"
+".\objects\main.o"
+".\objects\nuedu-basic01_eeprom.o"
+--strict --scatter ".\Objects\20190107.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\20190107.map" -o .\Objects\20190107.axf

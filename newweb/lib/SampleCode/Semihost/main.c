@@ -1,0 +1,87 @@
+/******************************************************************************
+ * @file     main.c
+ * @version  V1.00
+ * $Revision: 2 $
+ * $Date: 14/11/27 7:10p $
+ * @brief    Show how to print and get character with IDE console window.
+ *
+ * @note
+ * Copyright (C) 2013 Nuvoton Technology Corp. All rights reserved.
+*****************************************************************************/
+#include <stdio.h>
+#include "Nano1X2Series.h"
+
+#if defined (__GNUC__) && !defined(__ARMCC_VERSION) && defined(OS_USE_SEMIHOSTING)
+    extern void initialise_monitor_handles(void);
+#endif
+
+void SYS_Init(void)
+{
+    /*---------------------------------------------------------------------------------------------------------*/
+    /* Init System Clock                                                                                       */
+    /*---------------------------------------------------------------------------------------------------------*/
+    /* Unlock protected registers */
+    SYS_UnlockReg();
+
+    /* Enable External XTAL (4~24 MHz) */
+    //CLK->PWRCTL &= ~CLK_PWRCTL_HXT_EN_Msk;
+    CLK->PWRCTL |= (0x1 << CLK_PWRCTL_HXT_EN_Pos); // HXT Enabled
+
+    /* Waiting for 12MHz clock ready */
+    while((CLK->CLKSTATUS & CLK_CLKSTATUS_HXT_STB_Msk) != CLK_CLKSTATUS_HXT_STB_Msk);
+
+    /* Switch HCLK clock source to XTAL */
+    CLK->CLKSEL0 &= ~CLK_CLKSEL0_HCLK_S_Msk;
+    CLK->CLKSEL0 |= CLK_CLKSEL0_HCLK_S_HXT;
+
+    /* Enable IP clock */
+
+
+    /* Select IP clock source */
+
+
+    /* Update System Core Clock */
+    /* User can use SystemCoreClockUpdate() to calculate PllClock, SystemCoreClock and CycylesPerUs automatically. */
+    SystemCoreClockUpdate();
+
+    /*---------------------------------------------------------------------------------------------------------*/
+    /* Init I/O Multi-function                                                                                 */
+    /*---------------------------------------------------------------------------------------------------------*/
+
+    /* Lock protected registers */
+    SYS_LockReg();
+
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+/* Main Function                                                                                           */
+/*---------------------------------------------------------------------------------------------------------*/
+
+int32_t main()
+{
+    int8_t item;
+
+    SYS_Init();
+
+#if defined (__GNUC__) && !defined(__ARMCC_VERSION) && defined(OS_USE_SEMIHOSTING)
+    initialise_monitor_handles();
+#endif
+
+    printf("\n Start SEMIHOST test: \n");
+
+    while(1)
+    {
+        item = getchar();
+        printf("%c\n",item);
+    }
+
+}
+
+
+
+
+
+/*** (C) COPYRIGHT 2012 Nuvoton Technology Corp. ***/
+
+
+
